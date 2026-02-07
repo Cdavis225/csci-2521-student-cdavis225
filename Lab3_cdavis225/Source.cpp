@@ -8,6 +8,7 @@ using namespace std;
  */
 
 int main() {
+	//Section instructing the user to select an option available listed.
 	int selection;
 	cout << "Menu" << endl;
 	cout << "1. Calculate the Area of a Rectangle" << endl;
@@ -16,7 +17,9 @@ int main() {
 	cout << "Please make a selection: ";
 	cin >> selection;
 
+	//If statement that will direct the user to one of the three options based on their input.
 	if (selection == 1) {
+		//Calculation of the rectangle area
 		int rectLength;
 		int rectWidth;
 		int rectArea;
@@ -28,6 +31,7 @@ int main() {
 		cout << "The area of the rectangle is : " << rectArea;
 	}
 	else if (selection == 2) {
+		//Calculation of the circle area
 		int circRad;
 		const double PI = 3.14159;
 		double circArea;
@@ -39,9 +43,11 @@ int main() {
 		cout << "The area of the circle is : " << circArea;
 	}
 	else if (selection == 0) {
+		//Ends program by returning 0, if the user enters 0
 		return 0;
 	}
 	else {
+		//Asks user to input a valid entry if they do not input 0, 1, or 2.
 		cout << "Please enter a valid number E.g. 1 for option 1, 2 for option 2, and 0 to quit";
 	}
 }
