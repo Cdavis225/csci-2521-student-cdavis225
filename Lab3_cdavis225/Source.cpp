@@ -20,9 +20,9 @@ int main() {
 	//If statement that will direct the user to one of the three options based on their input.
 	if (selection == 1) {
 		//Calculation of the rectangle area
-		int rectLength;
-		int rectWidth;
-		int rectArea;
+		double rectLength;
+		double rectWidth;
+		double rectArea;
 		cout << "Please enter the length of the rectangle: " << endl;
 		cin >> rectLength;
 		cout << "Please enter the width of the rectangle: " << endl;
@@ -32,10 +32,10 @@ int main() {
 	}
 	else if (selection == 2) {
 		//Calculation of the circle area
-		int circRad;
+		double circRad;
 		const double PI = 3.14159;
 		double circArea;
-		int radCalc;
+		double radCalc;
 		cout << "Please enter the radius of the circle: " << endl;
 		cin >> circRad;
 		radCalc = circRad * circRad;
