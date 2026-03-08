@@ -1,0 +1,2 @@
+﻿Source1.obj : error LNK2005: main already defined in Source.obj
+C:\Users\cj252\source\repos\csci-2521-student-cdavis225\Parse_Example\x64\Debug\Parse_Example.exe : fatal error LNK1169: one or more multiply defined symbols found

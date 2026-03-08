@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\cj252\source\repos\csci-2521-student-cdavis225\Lab6_cdavis225\Source.cpp(8,6): warning C4101: 'avgScore': unreferenced local variable
+  Lab6_cdavis225.vcxproj -> C:\Users\cj252\source\repos\csci-2521-student-cdavis225\Lab6_cdavis225\x64\Debug\Lab6_cdavis225.exe
