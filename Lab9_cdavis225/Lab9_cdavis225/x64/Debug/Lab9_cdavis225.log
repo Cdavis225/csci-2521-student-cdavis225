@@ -1,0 +1,11 @@
+﻿  Account.cpp
+C:\Users\cj252\source\repos\csci-2521-student-cdavis225\Lab9_cdavis225\Account.h(45,14): error C2039: 'cout': is not a member of 'std'
+  (compiling source file 'Account.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(29,1):
+      see declaration of 'std'
+  
+C:\Users\cj252\source\repos\csci-2521-student-cdavis225\Lab9_cdavis225\Account.h(45,14): error C2065: 'cout': undeclared identifier
+  (compiling source file 'Account.cpp')
+  
+  Source.cpp
+  Generating Code...
