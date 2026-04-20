@@ -1,0 +1,6 @@
+﻿  SavingsAccount.cpp
+  Source.cpp
+C:\Users\cj252\source\repos\csci-2521-student-cdavis225\Lab10_cdavis225\Source.cpp(24,65): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\cj252\source\repos\csci-2521-student-cdavis225\Lab10_cdavis225\Source.cpp(44,56): warning C4305: 'argument': truncation from 'double' to 'float'
+  Generating Code...
+  Lab10_cdavis225.vcxproj -> C:\Users\cj252\source\repos\csci-2521-student-cdavis225\Lab10_cdavis225\x64\Debug\Lab10_cdavis225.exe
