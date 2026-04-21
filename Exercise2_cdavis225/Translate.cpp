@@ -42,7 +42,7 @@ bool Limit::accept() const noexcept
 
 string Translator::morseCode(char letter) const
 {
-	//Translates spaces into / as a way for them to not cause the program to view them as invalid inputs
+	//Translates into the morse code as not to cause the program to view them as invalid inputs
 	if (letter == ' ') {
 		return " ";
 	}
