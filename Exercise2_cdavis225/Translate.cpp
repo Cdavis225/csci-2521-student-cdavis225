@@ -44,7 +44,7 @@ string Translator::morseCode(char letter) const
 {
 	//Translates spaces into / as a way for them to not cause the program to view them as invalid inputs
 	if (letter == ' ') {
-		return "/";
+		return " ";
 	}
 
 	//Checks each character and turns it to uppercase, used a different example than the one you gave us in the case insensitivity file.
